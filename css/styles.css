@@ -195,6 +195,7 @@ articles{
 display: flex;
 flex-direction: row;/* pas obligatoire  car par défaut*/
 flex-wrap: wrap;
+gap: 4px;
 }
 
 
@@ -309,4 +310,16 @@ flex-wrap: wrap;
     .nav-item-link {
         margin-bottom: 0;
     }
-}
+   
+        .btn {
+            padding: 0.5rem 1rem;
+            font-size: 1em;
+            margin-inline: 5px;
+        }
+    
+        .card-footer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
